@@ -28,6 +28,16 @@ class Movie {
     public function getYear() {
        return $this -> year;
     }
+
+    // genere
+     public function setGenre(Genre $genre) {
+        $this -> genre = $genre;
+    }
+
+    public function getGenre(): Genre {
+
+        return $this-> genre;
+    }
 }
 
 ?>

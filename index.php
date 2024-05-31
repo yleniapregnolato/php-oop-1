@@ -17,8 +17,8 @@ $movie3 = new Movie("I guardiano del destino", 2011, $genre2);
 $movie4 = new Movie("Mulan", 1998, $genre3);
 
 // stampa dei film
-echo "Film 1";
-echo "Titolo : " . $movie1 -> getTitle()
-
-
+echo "Film 1:" . "<br>";
+echo "Titolo : " . $movie1 -> getTitle() . "<br>";
+echo "Anno di uscita: " . $movie1 -> getYear() . "<br>";
+echo "Genere: " . $movie1 -> getGenre()-> getName();
 ?>
