@@ -5,18 +5,18 @@ class Genre {
 
     // costruttore
     public function __construct(string $genre) {
-        $this -> Genere = $genre;
+        $this -> genere = $genre;
     }
     
     // set
     public function setGenre(string $genre) {
-        $this -> Genere = $genre;
+        $this -> genere = $genre;
     }
 
-    // get controlla il dato in uscira
+    // get controlla il dato in uscita
     public function getGenre() {
 
-        return $this-> $genre;
+        return $this-> genre;
     }
 
 }
