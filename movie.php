@@ -6,9 +6,9 @@ class Movie {
 
     // costruttore
     public function __construct(string $title, int $year, Genre $genre) {
-        $this -> titolo = $title;
-        $this -> anno = $year;
-        $this -> genere = $genre;
+        $this -> title = $title;
+        $this -> year = $year;
+        $this -> genre = $genre;
     }
 
     // titolo
@@ -16,7 +16,7 @@ class Movie {
         $this -> titolo = $title;
     }
 
-    public function getTitle(string $titolo) {
+    public function getTitle() {
        return $this -> title;
     }
 
@@ -25,8 +25,9 @@ class Movie {
         $this -> anno = $year;
     }
 
-    public function getYear(int $year) {
-       return $this -> year
+    public function getYear() {
+       return $this -> year;
     }
 }
+
 ?>
