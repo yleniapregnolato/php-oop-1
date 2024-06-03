@@ -1,8 +1,8 @@
 <?php
 // importo la classe genere
-require_once "genre.php";
+require_once __DIR__ . "/genre.php";
 // importo la classe movie
-require_once "movie.php";
+require_once __DIR__ . "/movie.php";
 
 // creo le istanze della classe genre
 $genre1 = new Genre("Commedia");
