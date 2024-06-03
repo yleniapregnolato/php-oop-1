@@ -9,7 +9,7 @@ class Genre {
     }
     
     // set
-    public function setName(string $genre) {
+    public function setName(string $name) {
         $this -> name = $name;
     }
 
